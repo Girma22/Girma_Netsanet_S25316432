@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+    <!-- Application title -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Traffic Scotland"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:padding="8dp"
+        android:textColor="#424B57"
+        android:fontFamily="sans-serif"
+        android:lineSpacingExtra="4dp" />
+
+    <!-- Application Toolbar -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/mainToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#263B63"
+        android:title="Menu"
+        android:titleTextColor="@android:color/white"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <!-- Road name search -->
+    <EditText
+        android:id="@+id/searchInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Search road or incident (e.g. M8)"
+        android:inputType="text"
+        android:singleLine="true" />
+
+    <!-- Nearby distance search heading -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Find nearby situations"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="4dp" />
+
+    <!-- Distance selection -->
+    <Spinner
+        android:id="@+id/spinnerDistance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/distance_options"
+        android:contentDescription="Select search distance" />
+
+    <!-- Distance search button -->
+    <Button
+        android:id="@+id/btnSearchDistance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search Nearby"
+        android:layout_marginTop="4dp" />
+
+    <!-- Search and download status -->
+    <TextView
+        android:id="@+id/txtStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ready"
+        android:padding="6dp" />
+
+    <!-- Refresh traffic information -->
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Refresh traffic information" />
+
+    <!-- Open Google Maps -->
+    <Button
+        android:id="@+id/mapButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Traffic Map" />
+
+    <!-- List of traffic situations -->
+    <ListView
+        android:id="@+id/situationList"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:dividerHeight="1dp" />
+
+</LinearLayout>

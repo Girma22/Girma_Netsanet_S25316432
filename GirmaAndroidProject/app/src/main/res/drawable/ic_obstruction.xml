@@ -1,0 +1,31 @@
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+
+    <!-- Orange road barrier -->
+    <path
+        android:fillColor="#F57C00"
+        android:pathData="M5,15 L43,15 L43,29 L5,29 Z" />
+
+    <!-- White warning stripes -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M12,15 L19,15 L12,29 L5,29 Z
+                          M28,15 L35,15 L28,29 L21,29 Z" />
+
+    <!-- Barrier support legs -->
+    <path
+        android:fillColor="#424242"
+        android:pathData="M10,29 L15,29 L13,42 L9,42 Z
+                          M33,29 L38,29 L39,42 L35,42 Z" />
+
+    <!-- Base -->
+    <path
+        android:fillColor="#424242"
+        android:pathData="M5,42 L18,42 L18,45 L5,45 Z
+                          M30,42 L43,42 L43,45 L30,45 Z" />
+
+</vector>

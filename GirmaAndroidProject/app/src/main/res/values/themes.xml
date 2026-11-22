@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme -->
+    <style name="Base.Theme.Girma_Netsanet_S2531643"
+        parent="Theme.Material3.DayNight.NoActionBar">
+
+        <!-- Application colours and styling can be customised here -->
+
+    </style>
+
+    <!-- Main application theme -->
+    <style name="Theme.Girma_Netsanet_S2531643"
+        parent="Base.Theme.Girma_Netsanet_S2531643" />
+
+</resources>

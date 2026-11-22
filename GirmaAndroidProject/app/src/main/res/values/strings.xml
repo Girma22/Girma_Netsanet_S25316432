@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ScotTraffic</string>
+    <string-array name="distance_options">
+        <item> Distance Within 1 km</item>
+        <item> Distance Within 5 km</item>
+        <item> Distance Within 10 km</item>
+        <item> Distance Within 20 km</item>
+    </string-array>
+</resources>

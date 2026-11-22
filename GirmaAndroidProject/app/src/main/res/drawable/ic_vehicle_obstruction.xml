@@ -1,0 +1,32 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+
+    <!-- Vehicle body -->
+    <path
+        android:fillColor="#455A64"
+        android:pathData="M9,20 L12,12 C12.5,10.8 13.5,10 15,10 L29,10 C30.5,10 31.5,10.8 32,12 L36,20 L39,22 C40.2,22.8 41,24 41,25.5 L41,34 L7,34 L7,25.5 C7,24 7.8,22.8 9,22 Z"/>
+
+    <!-- Vehicle windows -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M14,13 L12,19 L33,19 L30,13 Z"/>
+
+    <!-- Wheels -->
+    <path
+        android:fillColor="#263238"
+        android:pathData="M10,31 L17,31 L17,37 L10,37 Z M31,31 L38,31 L38,37 L31,37 Z"/>
+
+    <!-- Warning symbol -->
+    <path
+        android:fillColor="#F44336"
+        android:pathData="M36,2 A10,10 0,1 0 36,22 A10,10 0,1 0 36,2 Z"/>
+
+    <!-- Exclamation mark -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M35,6 L37,6 L36.7,14 L35.3,14 Z M35,16 L37,16 L37,18 L35,18 Z"/>
+
+</vector>

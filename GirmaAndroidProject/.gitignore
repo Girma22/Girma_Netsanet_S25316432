@@ -1,0 +1,20 @@
+
+# Gradle and Android local configuration
+.gradle
+/build
+**/build/
+local.properties
+
+# APK and App Bundle files
+*.apk
+*.aab
+
+# Android Studio IDE files
+*.iml
+.idea/
+.externalNativeBuild
+.cxx
+
+# Captures and temporary files
+/captures
+.DS_Store

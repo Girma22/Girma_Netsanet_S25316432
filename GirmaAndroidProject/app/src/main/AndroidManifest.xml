@@ -11,10 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Girma_Netsanet_S2531643">
 
-        <!-- Traffic Scotland API key -->
-        <meta-data
-            android:name="com.example.testlocalpropertieskey.MY_KEY"
-            android:value="${TRAFFIC_CLIENT_KEY}" />
+       
 
         <!-- Google Maps API key -->
         <meta-data
